@@ -1,0 +1,279 @@
+           WALKTHROUGH FOR COLOSSAL CAVES ADVENTURE
+
+                      by Sean L. Palmer
+                released to the public domain
+
+This is a walkthrough for the 350-point version of the Colossal Caves
+Adventure by Crowther and Woods.  It starts from the start of the game
+outside the building, and is (more or less) the exact commands needed
+to win the game with the maximum number of points.  DO NOT use this
+walkthrough unless you have already solved the game or are just really
+stuck and have exhausted all other methods of getting hints (like
+typing "HELP" in the game itself).  This walkthrough WILL RUIN THE
+GAME for you if you haven't already solved it, and you'll hate yourself
+forever for not sticking it out on your own.  Besides, winning isn't
+everything, and some of my favorite memories from the game are some
+of the clever responses it gives for trying some of the wrong ways to
+solve a puzzle (like try typing "kill troll" or "throw axe" at the
+troll sometime.)  This walkthrough will NOT solve any of the versions
+which have more total points.  It is not a 100% optimal walkthrough,
+and I'm sure a few improvements can be made, though it is considerably
+better than at least one other walkthrough I've seen (less total moves).
+It is also not documented very well, so you are expected to halfway
+know your way around, though I've put some locations down for
+synchronization purposes.  It also assumes that you don't find the
+first dwarf (the one who throws the axe) before completing the first
+trip into the cave (else you'll have too many items to carry). It also
+(whew!) assumes that you will pick up the axe as soon as you see it,
+and kill the other dwarves you see as you see them, and retrieve the
+axe afterwards. It also assumes that the pirate doesn't steal any
+treasure until you actually get into the maze of twisty little passages,
+all alike, or else you'll have to modify the chest-retrieval bit to
+account for it. Due to these random events, and certain other ones like
+passages occasionally dumping you into the same room you left from,
+this is not an exact walkthrough, and feeding the inputs shown into
+the game via input redirection will NOT work (unfortunately). You have
+to deal with the extra events as they happen, and maybe try several
+times before circumstances work out and you win the game.
+Notice: some versions of the game do not treat 'get' the same as 'take',
+and will complain at you if you type 'get x', but will accept 'take x'.
+In this case, replace all occurrences of 'get' in the walkthrough with
+'take' and all will be well.
+
+Now, without further ado, 'You are at the end of a road, outside a
+small building...'
+
+///////////////////////////////////////////////////////////////////////////////
+e                //end of road
+get lamp         //can hold maximum of 7 items
+xyzzy
+on lamp
+e                //we intentionally leave the rod there for now
+get cage
+pit
+e
+get bird
+w
+d
+s
+get gold
+n
+n                //this should bring you to Hall of Mt. King
+free bird
+drop cage
+s
+get jewel
+n
+w
+get coins
+e
+n
+get silver
+n                //this should bring you to Y2
+plover
+ne
+get pyramid
+s
+plover
+plugh            //if any dwarves have shown up already, restart!
+drop pyramid
+drop coins
+drop jewel
+drop silver
+drop gold
+get bottle
+get food
+get keys
+plugh
+s                //now get axe, when you see it
+d
+bedquilt
+slab
+s
+d
+pour water
+u
+w
+u
+reservoir
+get water
+s
+s
+d
+s
+d
+pour water       //should be at bottom of west pit now
+u
+e
+d
+get oil
+u
+w
+d
+climb
+w
+get eggs
+n
+oil door
+n
+get trident
+w
+d
+drop bottle
+sw
+u               //should be at sw side of chasm now
+toss eggs
+cross
+ne
+barren
+e
+feed bear
+open chain
+get chain
+get bear
+w
+fork
+ne
+e
+get spice
+fork
+w
+w
+cross           //should be at ne side of chasm now
+free bear
+cross
+sw
+d
+drop keys
+bedquilt
+e
+n
+open clam
+d
+d
+get pearl
+u
+u
+s
+u
+e
+u
+n              //should now be at Y2 again
+plugh
+drop chain
+drop spice
+drop trident
+drop pearl
+plugh
+s
+d
+bedquilt
+w
+oriental
+n
+w              //should put you in the alcove
+drop lamp
+drop axe
+e
+get emerald
+w
+get axe
+get lamp
+nw
+s
+get vase
+se
+e
+get pillow
+w
+w
+w
+d
+climb
+w             //should be in Giant Room now
+fee
+fie
+foe
+foo
+get eggs
+s
+d
+u
+w
+u
+s
+kill dragon
+yes
+get rug
+e
+e
+n
+n             //should be at Y2 again
+plugh
+drop rug
+drop pillow
+drop vase
+drop emerald
+drop eggs
+xyzzy         //now need to get a treasure stolen by the pirate if you haven't already
+get rod
+pit
+d
+w
+wave rod
+w
+get diamond   //let him steal this (we saved it for this occasion)
+w             //you ought to be at the west end of Hall of Mists now
+s             //into MOTLP,AA
+e             //hope the pirate comes while you're on the way to his lair
+s
+s
+s
+n
+e
+n
+e
+nw            //into Dead end (if he hasn't shown up by now, see note 1)
+get chest
+get diamond   //and any other treasures pirate stole
+se
+n
+d
+debris
+xyzzy
+drop rod
+drop chest
+drop diamond
+plugh
+s             //May need to save the magazines until now. May not.
+d
+bedquilt
+e
+e
+get magazine
+e
+drop magazine //last point in beginner section (276)
+n             //until you get out. See note 2
+              //wait until the Cave closes
+sw
+get rod
+ne
+drop rod
+sw
+blast         //Yay! Elves!
+///////////////////////////////////////////////////////////////////////////////
+
+The other walkthrough finishes the game in about 243 moves, not counting
+the dwarves and waiting for the pirate and getting out of Witt's End.
+This finishes in around 215 moves with those same stipulations.
+It could probably be improved by a few moves at least.
+
+Note 1:
+ If the pirate hasn't stolen something by now, you are basically screwed, but
+ you can try the sequence se,n,w,w,w,e,e,w,s,n,s,s,s,n,e,n,e,nw over and over
+ to try to find him before your lamp runs out.
+
+Note 2:
+ Don't go west here. Keep trying N and you'll eventually get out.
+ After moving the magazines, I recommend going somewhere with light (either
+ by the grate or in the plover room) and waste some time until the Cave closes.
